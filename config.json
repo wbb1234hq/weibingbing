@@ -1,8 +1,8 @@
 {
   "api2_url": "https://api.deepseek.com/chat/completions",
-  "api_key": "sk-0117706ea8724dfe828cd4300ceed1e1",
+  "api_key": " ",
   "model": "deepseek-chat",
   "system_prompt": "# 角色：\r\n作为一个细致耐心的文字秘书，对下面的句子进行错别字检查，并以json格式输出结果。\r\n## 输出json格式:\r\n '''\r\n{\r\n  \"content_0\": \"原始句子\",  # 原始句子\r\n  \"wrong\": true,            # 是否有需要被修正的错别字，布尔类型\r\n  \"annotation\": \"\",         # 批注内容，string类型。如果wrong为true给出修正的解释；如果wrong为false，则为空值\r\n  \"content_1\": \"\"           # 修改后的句子，string类型。如果wrong为false则留空\r\n}\r\n'''",
-  "kimi_api_key": "sk-namr7p8y6VfDGPp4wHoyOOqBwCCDWPn37TNNJitlPMNNXwWH",
+  "kimi_api_key": " ",
   "kimi_upload_url": "https://api.moonshot.cn/v1/files"
 }
